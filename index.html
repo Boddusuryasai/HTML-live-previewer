@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+ <div class="md:container md:mx-auto">
+
+    <div class="flex flex-col gap-4 space-around md:flex md:flex-row">
+         <textarea class="md:w-[48vw] ml-2 h-[90vh] border-black border resize-none rounded-md" id="textarea"> </textarea>
+         <iframe class="md:w-[48vw] h-[90vh] border-black border" id="iframe"></iframe>
+    </div>
+     <div class="flex justify-center gap-2">
+        <button id="btn" class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded mt-2 ">
+            Execute
+          </button>
+          <button id="btn1" class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded mt-2 ">
+            Reset
+          </button>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
